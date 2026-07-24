@@ -1,22 +1,50 @@
 aid: cognichip
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cognichip.png
 name: Cognichip
-description: 'Cognichip is a company surfaced as a portfolio company of lux-capital, mayfield and added
-  to the API Evangelist network as a stub for enrichment. Sector: semiconductors. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Cognichip is an AI-first semiconductor company revolutionizing the way
+  chips are designed. Its core technology, Artificial Chip Intelligence (ACI), is
+  built on what the company describes as the world''s first physics-informed foundation
+  AI model tailored for chip design, positioning ACI as a new scaling factor for semiconductors.
+  ACI aims to understand, learn, and solve chip design problems with designer-level
+  cognitive abilities, reducing design effort by roughly 75% and cutting completion
+  time in half to address the industry bottleneck where chip development can take three
+  to five years. Founded by semiconductor and AI veterans including CEO Faraj Aalaei
+  and CTO Ehsan Kamalinejad, the company is backed by Lux Capital, Mayfield, and Seligman
+  Ventures, has Intel CEO Lip-Bu Tan on its board, and was named to Fast Company''s
+  World''s Most Innovative Companies of 2026. Added to the API Evangelist network and
+  enriched by the pipeline; the company publishes a marketing and corporate presence
+  today with no public developer or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/cognichip/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lux-capital
 - mayfield
+- seligman-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Semiconductors
+- Artificial Intelligence
+- Chip Design
+- EDA
+- Foundation Models
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://cognichip.ai
+- type: About
+  url: https://cognichip.ai/about
+- type: Blog
+  url: https://cognichip.ai/news
+- type: SignUp
+  url: https://cognichip.ai/sign-up
+- type: PrivacyPolicy
+  url: https://cognichip.ai/privacy-policy
+- type: TermsOfService
+  url: https://cognichip.ai/term-of-use
+- type: Careers
+  url: https://cognichip.ai/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cognichip/
+- type: Twitter
+  url: https://x.com/Cognichip
+- type: DomainSecurity
+  url: security/cognichip-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
