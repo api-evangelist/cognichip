@@ -55,7 +55,7 @@ tags:
 - Chip Design
 - EDA
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Semiconductors
@@ -64,6 +64,7 @@ tags_raw:
 - EDA
 - Foundation Models
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
